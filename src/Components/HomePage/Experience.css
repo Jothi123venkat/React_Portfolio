@@ -1,0 +1,27 @@
+ .experience-container {
+  padding: 20px;
+}
+
+
+.experience-item {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+  
+}
+
+.scrolling-text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

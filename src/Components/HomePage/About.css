@@ -1,0 +1,46 @@
+.logo1 {
+    opacity: 0.9;
+    padding: 50px;
+    color: #e34c26;
+    animation: rotateLogo 10s infinite linear;
+    /* Define animation */
+}
+
+
+.logo2 {
+    opacity: 0.9;
+    padding: 50px;
+    color: #e34c26;
+    animation: rotateLogo 10s infinite linear;
+    color: #264de4
+}
+
+
+
+.logo3 {
+    opacity: 0.9;
+    padding: 50px;
+    color: #e34c26;
+    animation: rotateLogo 10s infinite linear;
+    color: #f0db4f
+}
+
+
+
+.logo4 {
+    opacity: 0.9;
+    padding: 50px;
+    color: #e34c26;
+    animation: rotateLogo 10s infinite linear;
+    color: #61dbfb
+}
+
+@keyframes rotateLogo {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
